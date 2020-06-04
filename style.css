@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: 3px solid blue;
+  background: black;
+  opacity: 0.7;
+}
+
+#home {
+  background: url("peopleee.jpg") no-repeat center top;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed;
+}
+
+#home .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 700px;
+}
+
+#home .mycard {
+  opacity: 0.8;
+}
+
+#home .fa {
+  background: #fff;
+  color: #007BFF;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#home .home-inner {
+  padding-top: 150px;
+}
+
+#explor-main {
+  background: #fff;
+  color: dark;
+}
+
+#explor-main .fa {
+  background: black;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#create-main .fa {
+  background: #fff;
+  color: #007BFF;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#share-main immg {
+  margin-top: 5rem;
+}
+
+#share-main .fa {
+  background: black;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 5px;
+}

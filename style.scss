@@ -1,0 +1,83 @@
+$body-color:#333;
+$color-t:#fff;
+$icon-color:#007BFF;
+
+html {
+   scroll-behavior: smooth;
+}
+
+
+body {
+   background: $body-color;
+   color: $color-t
+}
+
+.navbar {
+   border-bottom: 3px solid blue;
+   background: rgb(0, 0, 0);
+   opacity: 0.7;
+}
+
+#home {
+   background: url('peopleee.jpg') no-repeat center top;
+   background-size: cover;
+   min-height: 700px;
+   background-attachment: fixed;
+   // padding-top: 150px;
+
+   .dark-overlay {
+      background: rgba(0, 0, 0, 0.7);
+      min-height: 700px;
+   }
+
+   .mycard {
+      opacity: 0.8;
+   }
+
+   .fa {
+      background: $color-t;
+      color: $icon-color;
+      font-size: 30px;
+      border-radius: 5px;
+   }
+
+   .home-inner {
+      padding-top: 150px;
+   }
+}
+
+#explor-main {
+   background: $color-t;
+   color: dark;
+
+   .fa {
+      background: rgb(0, 0, 0);
+      color: $color-t;
+      font-size: 30px;
+      border-radius: 5px;
+   }
+
+
+}
+
+#create-main {
+   .fa {
+      background: $color-t;
+      color: $icon-color;
+      font-size: 30px;
+      border-radius: 5px;
+   }
+}
+
+#share-main {
+   immg {
+      margin-top: 5rem;
+   }
+
+   .fa {
+      background: rgb(0, 0, 0);
+      color: $color-t;
+      font-size: 30px;
+      border-radius: 5px;
+   }
+}
